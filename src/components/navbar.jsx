@@ -82,21 +82,24 @@ const Navbar = () => {
           href="/"
           className="text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center"
         >
-          <span className="text-white mr-1">Lama</span>
-          <span className="w-12 h-8 rounded bg-white text-black flex items-center justify-center">
+          <span className="text-white mr-1">AK</span>
+          {/* <span className="w-12 h-8 rounded bg-white text-black flex items-center justify-center">
             .dev
-          </span>
+          </span> */}
         </Link>
       </div>
       {/* SOCIAL */}
       <div className="hidden md:flex gap-4 w-1/3">
-        <Link href="/">
+        <Link href="https://github.com/akhileshawachat">
           <Image src="/github.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="/">
-          <Image src="/dribbble.png" alt="" width={24} height={24} />
+        <Link href="https://www.linkedin.com/in/akhilesh-awachat-873914191/">
+          <Image src="/linkedin.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="/">
+        <Link href="https://leetcode.com/akhileshawachat65/">
+          <Image src="/leetcode.png" alt="" width={24} height={24} />
+        </Link>
+        {/* <Link href="/">
           <Image src="/instagram.png" alt="" width={24} height={24} />
         </Link>
         <Link href="/">
@@ -104,10 +107,8 @@ const Navbar = () => {
         </Link>
         <Link href="/">
           <Image src="/pinterest.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="/">
-          <Image src="/linkedin.png" alt="" width={24} height={24} />
-        </Link>
+        </Link> */}
+        
       </div>
       {/* RESPONSIVE MENU */}
       <div className="md:hidden">
