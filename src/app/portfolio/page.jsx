@@ -68,14 +68,14 @@ const PortfolioPage = () => {
                   <h1 className="text-xl font-bold md:text-2xl lg:text-4xl xl:text-5xl">
                     {item.title}
                   </h1>
-                  <div className="relative w-60 h-32 ">
+                  <div className="relative w-80 h-40 md:w-96 md:h-38 lg:w-[500px] lg:h-[350px] xl:w-[600px] xl:h-[420px] ">
                     <Image src={item.img} alt="" fill />
                   </div>
                   <p className="w-80 md:w96 lg:w-[500px] lg:text-lg xl:w-[600px]">
                     {item.desc}
                   </p>
                   <Link href={item.link} className="flex justify-end">
-                    <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See More</button>
+                    <button className="p-1 text-sm md:p-1 md:text-md lg:p-4 lg:text-lg bg-white text-gray-400 font-semibold m-1 rounded">See More</button>
                   </Link>
                 </div>
               </div>
